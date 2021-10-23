@@ -1,0 +1,44 @@
+.headtop{
+    align-items: center;
+    position: sticky;
+    top:-1px;
+    z-index: 1;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+/* section 1 CSS start */
+
+.section1 .a1:hover,
+.section1 .a2:hover,
+.section1 .a3:hover,
+.section1 .a4:hover,
+.section1 .a5:hover,
+.section1 .a6:hover{
+    color:rgb(12, 167, 12);
+    border:4px solid #25d14d; 
+    border-radius: 20px;
+}
+.section1 .a1 img:hover,
+.section1 .a2 img:hover,
+.section1 .a3 img:hover,
+.section1 .a4 img:hover,
+.section1 .a5 img:hover,
+.section1 .a6 img:hover{
+    border-radius: 10px;
+}
+.section1 button:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17.5px;
+}
+
+/* section 1 CSS end */
+
+/* section 2 CSS start */
+
+.section2 thead{
+    position: sticky;
+    top:58.5px;
+}
+
+/* section 2 CSS end */

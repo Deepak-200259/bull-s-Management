@@ -1,0 +1,47 @@
+.headtop{
+    align-items: center;
+    position: sticky;
+    top:-1px;
+    z-index: 1;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+/* Section 1 CSS start */
+
+/* contact CSS start */
+.section1{
+    background-color: aliceblue;
+}
+.section1 .contact button:hover{
+    font-weight: 700;
+}
+
+/* contact CSS end */
+/* reach CSS start */
+
+.section1 .reach i:hover{
+    font-weight: 700;
+    
+}
+.section1 .reach a{
+    text-decoration: none;
+    color: black;
+}
+.section1 .reach a:hover{
+    font-weight: 700;
+}
+/* reach CSS end */
+/* follow CSS start */
+
+.section1 .follow .fa-instagram,
+.section1 .follow .fa-facebook,
+.section1 .follow .fa-twitter{
+    font-size: 45px;
+}
+.section1 .follow a i:hover{
+    color:rgb(248, 73, 73)!important;
+}
+
+/* follow CSS end */
+/* section 1 CSS end */

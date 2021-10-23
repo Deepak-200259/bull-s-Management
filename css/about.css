@@ -1,0 +1,180 @@
+.headtop{
+
+    align-items: center;
+    position: sticky;
+    top:-1px;
+    z-index: 1;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+/* section 1 CSS start */
+
+.section1 .a2 h1{
+    color: #011f39;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+.section1 .a1 img{
+    border-radius: 40px;
+}
+.section1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section1 ul li{
+    list-style:circle;
+}
+.section1 ul li:hover{
+    color:red; font-size: 19px;
+    cursor: default;
+    font-weight: 500;
+}
+.section1 .a3 .a31:hover,
+.section1 .a3 .a32:hover,
+.section1 .a3 .a33:hover,
+.section1 .a3 .a34:hover{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 251, 0);
+    font-size: 20px;
+    color:#fe5127!important;
+    border-radius: 20px;
+    cursor: default;
+}
+.section1 .a3 .container:hover{
+    border-radius: 20px;
+}
+.section1{
+    border-radius: 20px;
+}
+.section1 .a1{
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.section1 .a1 img {
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    display: block;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.section1 .a1:hover img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+/* section 1 CSS end */
+
+/* section 2 CSS start */
+
+.section2 ul{
+    list-style: none;
+    padding-left: 0px;
+    line-height: 50px;
+}
+.section2 .basic,
+.section2 .beginner,
+.section2 .premium,
+.section2 .ultimate{
+    border-radius: 80px;
+    border:2px solid white;
+    color: black;
+}
+.section2 .basic ul li:hover,
+.section2 .beginner ul li:hover,
+.section2 .premium ul li:hover,
+.section2 .ultimate ul li:hover{
+    font-size: 18px;
+    cursor:default;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2 .basic ul li:hover{
+    color: rgb(2, 255, 2);
+}
+.section2 .beginner ul li:hover{
+    color: rgb(238, 255, 0);
+}
+.section2 .premium ul li:hover{
+    color: white;
+}
+.section2 .ultimate ul li:hover{
+    color: blue;
+}
+.section2 .basic button:hover,
+.section2 .beginner button:hover,
+.section2 .premium button:hover,
+.section2 .ultimate button:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17.5px;
+}
+.section2{
+    border-radius: 20px;
+}
+
+/* section 2 CSS end */
+
+/* section 3 CSS Start */
+
+.section3 iframe{
+    height: 550px;
+    border-radius: 15px;
+}
+.section3{
+    border-radius: 20px;
+}
+
+/* section 3 CSS end */
+
+/* section 4 CSS start */
+
+.section4 .s1,
+.section4 .s2,
+.section4 .s3{
+    border-radius: 20px;
+}
+.section4 .s1 img,
+.section4 .s2 img,
+.section4 .s3 img{
+    border: 2px solid black;border-radius: 60px;
+}
+.section4 .s1 h3,
+.section4 .s2 h3,
+.section4 .s3 h3{
+    color: #011f39;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.section4 .s1 i,
+.section4 .s2 i,
+.section4 .s3 i{
+    font-size: 44px;
+}
+.section4 h1{
+    color: #011f39;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+.section4 h3:hover{
+    font-size: 30px;
+    font-weight: 1000;
+}
+.section4 span:hover{
+    font-size: 18px;
+    font-weight: 700;
+}
+.section4{
+    border-radius: 20px;
+}
+.section4:hover{
+    cursor: default;
+}
+
+/* section 4 CSS end */
