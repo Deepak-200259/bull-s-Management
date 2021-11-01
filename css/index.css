@@ -13,11 +13,11 @@ header .logo{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
 header label{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 26px;
     margin-left: 18px;
-    font-size: 37px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
 }
 header ul{
     list-style:none;
@@ -208,36 +208,32 @@ header ul li a:hover{
 
 /* section 1e CSS end */
 
-/* Footer CSS start */
-
-footer ul{
-    padding-left: 10px;
-}
-footer a:hover{
-    text-decoration: none;
-    font-size: 17.5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fe5f55;
-}
-footer{
-    text-decoration: none;
-}
-footer p:hover, 
-footer span:hover{
-    font-size: 20px;
-    cursor: default;
-    color: #fe5f55;
-}
+/* footer css start */
 
 footer img{
-    border-radius: 70px;
-}
-footer ul{
-    list-style:none;
-}
-footer ul li a{
-    text-decoration: none;
-    color: black;
+    width:80px;
+    height: 80px;
+    border-radius: 40px; 
+    align-items: center;
 }
 
-/* Footer CSS end */
+footer ul{
+    list-style: none;
+}
+footer i{
+    border-radius: 25px;
+}
+footer .form-control{
+    font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+    font-size: 18px!important;
+    font-weight: 500!important;
+    background-color: chartreuse;
+    color: black;
+}
+footer .contact ul li,footer .head{
+    cursor: pointer;
+}
+footer li:hover{
+    font-size: 18px;
+    font-weight: 500;
+}
